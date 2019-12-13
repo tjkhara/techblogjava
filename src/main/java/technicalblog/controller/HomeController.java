@@ -33,7 +33,7 @@ public class HomeController {
         posts.add(post1);
         posts.add(post2);
         posts.add(post3);
-        model.addAttribute("posts");
+        model.addAttribute("posts",posts);
 
         return "index";
     }
